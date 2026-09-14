@@ -1,0 +1,41 @@
+# custom.mplstyle
+# Custom matplotlib style sheet
+# Usage: plt.style.use('/path/to/custom.mplstyle')
+
+#### TICKS ####
+xtick.direction      : in
+ytick.direction      : in
+xtick.top             : True
+xtick.bottom          : True
+ytick.left            : True
+ytick.right           : True
+xtick.minor.visible   : False
+ytick.minor.visible   : False
+xtick.labelsize       : 14
+ytick.labelsize       : 14
+
+#### FONT ####
+font.family            : serif
+font.serif             : Computer Modern
+text.usetex             : True
+
+#### FONT SIZES ####
+font.size             : 14
+axes.labelsize        : 14
+axes.titlesize        : 14
+legend.fontsize        : 14
+
+#### GRID ####
+axes.grid             : True
+axes.grid.which       : major
+grid.color            : silver
+grid.alpha            : 1.0
+grid.linestyle        : --
+
+#### LINES ####
+lines.linewidth        : 2
+axes.linewidth         : 1
+xtick.major.width       : 1
+xtick.minor.width       : 1
+ytick.major.width       : 1
+ytick.minor.width       : 1
