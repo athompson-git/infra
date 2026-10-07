@@ -49,8 +49,8 @@ ytick.left            : True
 ytick.right           : True
 xtick.minor.visible   : False
 ytick.minor.visible   : False
-xtick.labelsize       : 14
-ytick.labelsize       : 14
+xtick.labelsize       : 20
+ytick.labelsize       : 20
 
 #### FONT ####
 font.family            : serif
@@ -58,10 +58,10 @@ font.serif             : Computer Modern
 text.usetex             : True
 
 #### FONT SIZES ####
-font.size             : 14
-axes.labelsize        : 14
-axes.titlesize        : 14
-legend.fontsize        : 14
+font.size             : 20
+axes.labelsize        : 20
+axes.titlesize        : 20
+legend.fontsize        : 20
 
 #### GRID ####
 axes.grid             : True
@@ -85,6 +85,9 @@ ytick.minor.width       : 1
 - End with an interactive display call, typically `plt.show()`.
 - One script → one figure or a small, related set of figures/subplots.
 - Keep the script runnable: `python path/to/script.py`.
+- Use r"...$...$..." for LaTeX in labels and titles.
+- If multiple plot elements have to be shown with numerical content in labels, it is better to define a label array as
+["label1", "label2", ...] and then use it in the plotting function, rather than using in-place string formatting in the label argument of the plotting function.
 
 ## Script pattern
 
